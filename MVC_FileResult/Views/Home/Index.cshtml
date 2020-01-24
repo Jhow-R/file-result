@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h2>Tratando arquivos com FileResult</h2>
+        <ul>
+            <li>@Html.ActionLink("Arquivo PDF", "ArquivoPDF")</li>
+            <li>@Html.ActionLink("Arquivo Audio", "ArquivoAudio")</li>
+            <li>@Html.ActionLink("Arquivo RTF", "ArquivoRTF")</li>
+            <li>@Html.ActionLink("Arquivo FilePathResult", "ArquivoFilePathResult")</li>
+            <li>@Html.ActionLink("Arquivos Genéricos", "Download")</li>
+        </ul>
+    </div>
+</body>
+</html>
